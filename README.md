@@ -26,3 +26,11 @@ re
 # Troubleshoot 
 If code gives "The requested operation requires elevation" error, you might need to try changing the tesseract executable to run as admin property:   
 Right Click tesseract.exe -> Properties -> Compability -> Check/Uncheck Run this program as an administrator -> OK .
+
+# Extract Data from PDF and Images   
+To extract data from PDF file and Images. It also save the last image or document processed.    
+This code can also handles PDF with different orientation (Upside down, 90 rotated)
+
+# Extract Data from PDF    
+To extract data from PDF without saving any temp file.    
+This code does not have functionality to handle poorly oriented documents.
